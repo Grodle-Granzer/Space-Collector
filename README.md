@@ -68,7 +68,7 @@ Space-Collector/
 
 ### Building
 ```bash
-g++ "Space Collector.cpp" -o "Space Collector.exe" -lraylib -lwinmm -lgdi32 -luser32
+g++ "Space Collector.cpp" resource.o -lraylib -lopengl32 -lgdi32 -lwinmm -o "Space Collector.exe"
 ```
 
 ### Running
