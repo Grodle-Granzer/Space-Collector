@@ -1,2 +1,32 @@
+--- Executables ---
+
 *.exe
+*.out
+*.app
+
+--- Objects and Libraries ---
+
 *.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+--- VS Code specific ---
+
+.vscode/
+*.code-workspace
+
+--- Temporary/Build files ---
+
+storage.data
+highscore.txt
+*.log
+resource.o
+
+--- OS Specific ---
+
+.DS_Store
+Thumbs.db
